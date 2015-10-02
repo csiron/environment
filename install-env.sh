@@ -4,7 +4,8 @@ sudo apt-get install -y apache2 git
 
 git clone https://github.com/csiron/Application.git
 
-
-
+echo > "Hello" /var/hello.txt
 
 fi
+
+
