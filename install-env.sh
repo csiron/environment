@@ -1,7 +1,6 @@
 #!/bin/bash
 sudo apt-get update -y 
-sudo apt-get install -y apache2 git
-
+sudo apt-get install -y apache2 git php5 curl
 git clone https://github.com/csiron/Application.git
 
 sudo mv Application/images /var/www/html/images
