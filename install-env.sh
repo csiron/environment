@@ -12,6 +12,8 @@ sudo mv Application/page2.html /var/www/html
 sudo mv Application/dbcreate.php /var/www/html
 sudo mv Application/setup.php /var/www/html
 sudo mv Application/gallery.php /var/www/html
+sudo mv Application/index.php /var/www/html
+sudo mv Application/submit.php /var/www/html
 chmod 600 Application/vendor
 sudo mv Application/vendor /var/www/html/vendor
 cd /var/www/html
