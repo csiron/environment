@@ -1,8 +1,8 @@
 #!/bin/bash
 sudo apt-get update -y 
-sudo apt-get install -y apache2 git php5
-curl -sS http://getcomposer.org/installer | php
-php composer.phar require aws/aws-sdk-php
+sudo apt-get install -y apache2 git php5 php5-curl mysql-client curl php5-mysql
+sudo curl -sS http://getcomposer.org/installer
+sudo php composer.phar require aws/aws-sdk-php
 
 git clone https://github.com/csiron/Application.git
 
