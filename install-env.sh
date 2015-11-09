@@ -18,6 +18,7 @@ chmod 755 Application/vendor
 sudo mv Application/vendor /var/www/html/vendor
 cd /var/www/html
 sudo php -r setup.php
+chmod 600 setup.php
 sudo rm index.html
 
 echo > "Hello" /var/hello.txt
