@@ -19,3 +19,4 @@ sudo mv vendor /var/www/html &> /tmp/movevendor.txt
 sudo php /var/www/html/setup.php &> /tmp/database-setup.txt
 
 sudo chmod 600 /var/www/html/setup.php
+sudo service apache2 restart
