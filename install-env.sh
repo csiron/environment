@@ -2,7 +2,7 @@
 
 sudo apt-get update -y
 sudo apt-get install -y apache2 git php5 php5-curl mysql-client curl php5-mysql
-sudo apt-get install -y php5-imagick
+sudo apt-get install -y php5 php5-imagick
 
 git clone https://github.com/csiron/Application.git
 
