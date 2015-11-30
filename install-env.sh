@@ -9,6 +9,7 @@ git clone https://github.com/csiron/Application.git
 sudo mv ./Application/images /var/www/html/images
 sudo mv ./Application/index.html /var/www/html
 sudo mv ./Application/*.php /var/www/html
+sudo mv ./Application/*.css /var/www/html
 
 sudo curl -sS https://getcomposer.org/installer | sudo php &> /tmp/getcomposer.txt
 
